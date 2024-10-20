@@ -165,6 +165,25 @@
             <li>Skype ID: john.doe123</li>
 
             <li>Zoom: Available upon request for meetings</li>
+            <br>
+            <p><strong>if you have further questions feel free to ask:</strong></p>
+            <br>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required><br><br>
+            
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+                <button type="submit">Send</button>
+            </form>
+           
         </ul>
         <footer style="background-color: #f8f8f8; color: #333; padding: 20px; text-align: center; border-top: 1px solid #ccc;">
             <div style="max-width: 800px; margin: 0 auto;">
